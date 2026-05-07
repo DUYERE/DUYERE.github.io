@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="zh" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="介绍CS，记录安装以及使用的过程">
+<title>CS安装与使用</title>
+
+
+<link rel="canonical" href="https://duyere.github.io/p/cs%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap">
+
+
+<link rel="stylesheet" href="/scss/style.min.e62e09c60ba428a627e03568fa3df938f6a8224f815b5846f00816c17d4a0be4.css"><meta property='og:title' content="CS安装与使用">
+<meta property='og:description' content="介绍CS，记录安装以及使用的过程">
+<meta property='og:url' content='https://duyere.github.io/p/cs%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/'>
+<meta property='og:site_name' content='DUYER'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='内网' /><meta property='article:tag' content='工具' /><meta property='article:published_time' content='2026-05-07T12:06:38&#43;08:00'/><meta property='article:modified_time' content='2026-05-07T19:06:38&#43;08:00'/>
+<meta name="twitter:title" content="CS安装与使用">
+<meta name="twitter:description" content="介绍CS，记录安装以及使用的过程">
+    <link rel="shortcut icon" href="/favicon.ico" />
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        <figure class="site-avatar">
+                <a href="/">
+                    <img src="/img/avatar.jpg" 
+                        width="1024"
+                        height="984"
+                        class="site-logo"
+                        loading="lazy"
+                        alt="Avatar">
+                </a>
+                
+                    <span class="emoji">✏️</span>
+                
+            </figure>
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">DUYER</a></h1>
+            <h2 class="site-description">欢迎来到我的博客</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://www.baidu.com'
+                        
+                        title="github"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>主页</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/%E5%85%B3%E4%BA%8E/' >
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>关于</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>归档</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>搜索</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/%E9%93%BE%E6%8E%A5/' >
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>链接</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>暗色模式</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">目录</h2>
+        
+        <div class="widget--toc">
+            <nav class="toc-nav" id="TableOfContents">
+                
+  <ul>
+    <li><a href="#介绍">介绍</a></li>
+    <li><a href="#安装">安装</a></li>
+    <li><a href="#上线">上线</a>
+      <ul>
+        <li><a href="#设置监听器">设置监听器</a></li>
+        <li><a href="#生成木马后门">生成木马后门</a></li>
+      </ul>
+    </li>
+    <li><a href="#插件加载">插件加载</a></li>
+    <li><a href="#联动msf">联动MSF</a></li>
+  </ul>
+
+            </nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            
+            
+            
+            <a href="/categories/%E5%86%85%E7%BD%91/" style="background-color: hsl(16, 60%, 84%); color: hsl(16, 60%, 15%);">
+                内网
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/cs%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/">CS安装与使用</a>
+        </h2>
+    
+        
+        <h3 class="article-subtitle">
+            介绍CS，记录安装以及使用的过程
+        </h3>
+        
+    </div>
+
+    
+    
+    
+    
+    
+    
+    
+    <footer class="article-meta">
+        
+            <div class="inline-meta">
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                    <time class="article-time--published" datetime='2026-05-07T12:06:38&#43;08:00'>2026年5月7日 星期一 12:06</time>
+                    
+                    
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <path d="M20,11.5 C20,11.2238576 20.2238576,11 20.5,11 C20.7761424,11 21,11.2238576 21,11.5 L21,18.5000057 C21,19.8807175 19.8807119,21.0000057 18.5,21.0000057 L5.48612181,21.0000057 C4.10540994,21.0000057 2.98612181,19.8807175 2.98612181,18.5000057 L2.98612181,5.5 C2.98612181,4.11928813 4.10540994,3 5.48612181,3 L12.5,3 C12.7761424,3 13,3.22385763 13,3.5 C13,3.77614237 12.7761424,4 12.5,4 L5.48612181,4 C4.65769469,4 3.98612181,4.67157288 3.98612181,5.5 L3.98612181,18.5000057 C3.98612181,19.3284328 4.65769469,20.0000057 5.48612181,20.0000057 L18.5,20.0000057 C19.3284271,20.0000057 20,19.3284328 20,18.5000057 L20,11.5 Z M18.8535534,3.14644661 L20.8535534,5.14644661 C21.0488155,5.34170876 21.0488155,5.65829124 20.8535534,5.85355339 L12.8535534,13.8535534 C12.7597852,13.9473216 12.6326082,14 12.5,14 L10.5,14 C10.2238576,14 10,13.7761424 10,13.5 L10,11.5 C10,11.3673918 10.0526784,11.2402148 10.1464466,11.1464466 L18.1464466,3.14644661 C18.3417088,2.95118446 18.6582912,2.95118446 18.8535534,3.14644661 Z M18.5,4.20710678 L11,11.7071068 L11,13 L12.2928932,13 L19.7928932,5.5 L18.5,4.20710678 Z"/>
+</svg>
+
+                        <time class="article-time--lastmod" datetime='2026-05-07T19:06:38&#43;08:00'>
+                             2026年5月7日 19:06
+                        </time>
+                    
+                
+
+                
+            </div>
+        
+
+        
+
+        
+    </footer>
+    
+</div>
+</header>
+
+    
+    <aside class="article-toc">
+        <details>
+            <summary>
+                <div class="article-toc-title">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-chevron-right"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 6l6 6l-6 6" /></svg>
+                    <span>目录</span>
+                </div>
+            </summary>
+            <nav class="toc-nav">
+                
+  <ul>
+    <li><a href="#介绍">介绍</a></li>
+    <li><a href="#安装">安装</a></li>
+    <li><a href="#上线">上线</a>
+      <ul>
+        <li><a href="#设置监听器">设置监听器</a></li>
+        <li><a href="#生成木马后门">生成木马后门</a></li>
+      </ul>
+    </li>
+    <li><a href="#插件加载">插件加载</a></li>
+    <li><a href="#联动msf">联动MSF</a></li>
+  </ul>
+
+            </nav>
+        </details>
+    </aside>
+    
+
+    <section class="article-content">
+    
+    
+    <h1 id="介绍">介绍
+</h1><p>是一款以Metasploit为基础的GUI的框架式渗透工具，集成了端口转发、服务扫描、自动化溢出、多模式端口监听、Winexe木马生成、office宏病毒生成、木马捆绑等；钓鱼攻击包括：站点克隆、目标信息获取、Java执行、浏览器自动攻击等。</p>
+<p>实际上 Cobaltstrike 的社区版是大家熟知的 Armitage (一个 MSF 的图形化界面工具)，而 Cobaltstrike 大家可以理解其为 Armitage 的商业版。</p>
+<h1 id="安装">安装
+</h1><p>在vps上安装好cs，并将权限给到位，执行以下命令</p>
+<pre tabindex="0"><code>cd Server/
+chmod +x teamserver
+chmod +x TeamServerImage
+./teamserver ip 密码
+</code></pre><p>如下图：</p>
+<p><img alt="图片1" class="gallery-image" data-flex-basis="325px" data-flex-grow="135" height="889" loading="lazy" sizes="(max-width: 767px) calc(100vw - 30px), (max-width: 1023px) 700px, (max-width: 1279px) 950px, 1232px" src="/p/cs%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/%E8%81%94%E6%83%B3%E6%88%AA%E5%9B%BE_20260502000445.png" srcset="/p/cs%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/%E8%81%94%E6%83%B3%E6%88%AA%E5%9B%BE_20260502000445_hu_bec02124f7e023a8.png 800w, /p/cs%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/%E8%81%94%E6%83%B3%E6%88%AA%E5%9B%BE_20260502000445.png 1205w" width="1205"></p>
+<p>下图是正确执行后的样子</p>
+<p><img alt="图片2" class="gallery-image" data-flex-basis="356px" data-flex-grow="148" height="863" loading="lazy" sizes="(max-width: 767px) calc(100vw - 30px), (max-width: 1023px) 700px, (max-width: 1279px) 950px, 1232px" src="/p/cs%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/%E8%81%94%E6%83%B3%E6%88%AA%E5%9B%BE_20260502000639.png" srcset="/p/cs%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/%E8%81%94%E6%83%B3%E6%88%AA%E5%9B%BE_20260502000639_hu_451e78eed3ddb482.png 800w, /p/cs%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/%E8%81%94%E6%83%B3%E6%88%AA%E5%9B%BE_20260502000639.png 1281w" width="1281"></p>
+<p>然后在本机打开client客户端，输入刚才填写的ip以及密码</p>
+<p><img alt="图片3" class="gallery-image" data-flex-basis="523px" data-flex-grow="218" height="499" loading="lazy" sizes="(max-width: 767px) calc(100vw - 30px), (max-width: 1023px) 700px, (max-width: 1279px) 950px, 1232px" src="/p/cs%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/%E8%81%94%E6%83%B3%E6%88%AA%E5%9B%BE_20260502001401.png" srcset="/p/cs%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/%E8%81%94%E6%83%B3%E6%88%AA%E5%9B%BE_20260502001401_hu_f1f1b3a0a7470742.png 800w, /p/cs%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/%E8%81%94%E6%83%B3%E6%88%AA%E5%9B%BE_20260502001401.png 1088w" width="1088"></p>
+<p><img alt="图片4" class="gallery-image" data-flex-basis="345px" data-flex-grow="144" height="690" loading="lazy" sizes="(max-width: 767px) calc(100vw - 30px), (max-width: 1023px) 700px, (max-width: 1279px) 950px, 1232px" src="/p/cs%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/%E8%81%94%E6%83%B3%E6%88%AA%E5%9B%BE_20260502003111.png" srcset="/p/cs%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/%E8%81%94%E6%83%B3%E6%88%AA%E5%9B%BE_20260502003111_hu_22c826085ab7b42c.png 800w, /p/cs%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/%E8%81%94%E6%83%B3%E6%88%AA%E5%9B%BE_20260502003111.png 994w" width="994"></p>
+<p>然后就可以正常运行了</p>
+<h1 id="上线">上线
+</h1><h2 id="设置监听器">设置监听器
+</h2><p>点击“监听器”</p>
+<p><img alt="图片5" class="gallery-image" data-flex-basis="248px" data-flex-grow="103" height="457" loading="lazy" sizes="(max-width: 767px) calc(100vw - 30px), (max-width: 1023px) 700px, (max-width: 1279px) 950px, 1232px" src="/p/cs%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/%E8%81%94%E6%83%B3%E6%88%AA%E5%9B%BE_20260507194922.png" width="474"></p>
+<p>点击“add”，然后配置好ip及端口，保存即可</p>
+<p><img alt="图片6" class="gallery-image" data-flex-basis="353px" data-flex-grow="147" height="816" loading="lazy" sizes="(max-width: 767px) calc(100vw - 30px), (max-width: 1023px) 700px, (max-width: 1279px) 950px, 1232px" src="/p/cs%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/%E8%81%94%E6%83%B3%E6%88%AA%E5%9B%BE_20260502165245.png" srcset="/p/cs%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/%E8%81%94%E6%83%B3%E6%88%AA%E5%9B%BE_20260502165245_hu_12b5945c5f08d73f.png 800w, /p/cs%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/%E8%81%94%E6%83%B3%E6%88%AA%E5%9B%BE_20260502165245.png 1202w" width="1202"></p>
+<h2 id="生成木马后门">生成木马后门
+</h2><p>如图点击“Windows可执行程序”</p>
+<p><img alt="图片7" class="gallery-image" data-flex-basis="358px" data-flex-grow="149" height="803" loading="lazy" sizes="(max-width: 767px) calc(100vw - 30px), (max-width: 1023px) 700px, (max-width: 1279px) 950px, 1232px" src="/p/cs%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/164247.png" srcset="/p/cs%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/164247_hu_38b6413122f0b8b0.png 800w, /p/cs%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/164247.png 1200w" width="1200"></p>
+<p>点击框选的那个选择框，直接选择刚才配置的监听器</p>
+<p><img alt="图片8" class="gallery-image" data-flex-basis="290px" data-flex-grow="121" height="522" loading="lazy" sizes="(max-width: 767px) calc(100vw - 30px), (max-width: 1023px) 700px, (max-width: 1279px) 950px, 1232px" src="/p/cs%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/%E8%81%94%E6%83%B3%E6%88%AA%E5%9B%BE_20260502165719.png" width="632"></p>
+<p>保存至想上传的位置</p>
+<p><img alt="图片9" class="gallery-image" data-flex-basis="354px" data-flex-grow="147" height="423" loading="lazy" sizes="(max-width: 767px) calc(100vw - 30px), (max-width: 1023px) 700px, (max-width: 1279px) 950px, 1232px" src="/p/cs%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/%E8%81%94%E6%83%B3%E6%88%AA%E5%9B%BE_20260502165804.png" width="624"></p>
+<p>在桌面生成的exe文件，双击运行即可上线</p>
+<p><img alt="图片10" class="gallery-image" data-flex-basis="264px" data-flex-grow="110" height="117" loading="lazy" sizes="(max-width: 767px) calc(100vw - 30px), (max-width: 1023px) 700px, (max-width: 1279px) 950px, 1232px" src="/p/cs%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/%E8%81%94%E6%83%B3%E6%88%AA%E5%9B%BE_20260502165815.png" width="129"></p>
+<p>下图可以看到就是连接上了</p>
+<p><img alt="图片11" class="gallery-image" data-flex-basis="353px" data-flex-grow="147" height="816" loading="lazy" sizes="(max-width: 767px) calc(100vw - 30px), (max-width: 1023px) 700px, (max-width: 1279px) 950px, 1232px" src="/p/cs%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/%E8%81%94%E6%83%B3%E6%88%AA%E5%9B%BE_20260502170312.png" srcset="/p/cs%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/%E8%81%94%E6%83%B3%E6%88%AA%E5%9B%BE_20260502170312_hu_eb8f70ebc10b82f9.png 800w, /p/cs%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/%E8%81%94%E6%83%B3%E6%88%AA%E5%9B%BE_20260502170312.png 1202w" width="1202"></p>
+<p><img alt="图片12" class="gallery-image" data-flex-basis="373px" data-flex-grow="155" height="769" loading="lazy" sizes="(max-width: 767px) calc(100vw - 30px), (max-width: 1023px) 700px, (max-width: 1279px) 950px, 1232px" src="/p/cs%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/%E8%81%94%E6%83%B3%E6%88%AA%E5%9B%BE_20260502170847.png" srcset="/p/cs%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/%E8%81%94%E6%83%B3%E6%88%AA%E5%9B%BE_20260502170847_hu_4ba5c660d1051569.png 800w, /p/cs%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/%E8%81%94%E6%83%B3%E6%88%AA%E5%9B%BE_20260502170847.png 1198w" width="1198"></p>
+<p>默认60秒执行命令，用命令<code>sleep 3</code> 设置为全部命令3秒执行</p>
+<p>还有就是执行系统命令时要在前面加shell，如<code>shell whoami</code></p>
+<p><img alt="图片13" class="gallery-image" data-flex-basis="517px" data-flex-grow="215" height="254" loading="lazy" sizes="(max-width: 767px) calc(100vw - 30px), (max-width: 1023px) 700px, (max-width: 1279px) 950px, 1232px" src="/p/cs%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/%E8%81%94%E6%83%B3%E6%88%AA%E5%9B%BE_20260502171219.png" width="548"></p>
+<p>指令大全</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-diff" data-lang="diff"><span style="display:flex;"><span>browserpivot 注入受害者浏览器进程
+</span></span><span style="display:flex;"><span>sleep 3 全部命令3秒执行
+</span></span><span style="display:flex;"><span>bypassuac 绕过UAC
+</span></span><span style="display:flex;"><span>cancel 取消正在进行的下载
+</span></span><span style="display:flex;"><span>cd 切换目录
+</span></span><span style="display:flex;"><span>checkin 强制让被控端回连一次
+</span></span><span style="display:flex;"><span>clear 清除beacon内部的任务队列
+</span></span><span style="display:flex;"><span>connect Connect to a Beacon peerover TCP
+</span></span><span style="display:flex;"><span>covertvpn 部署Covert VPN客户端
+</span></span><span style="display:flex;"><span>cp 复制文件
+</span></span><span style="display:flex;"><span>dcsync 从DC中提取密码哈希
+</span></span><span style="display:flex;"><span>desktop 远程VNC
+</span></span><span style="display:flex;"><span>dllinject 反射DLL注入进程
+</span></span><span style="display:flex;"><span>dllload 使用LoadLibrary将DLL加载到进程中
+</span></span><span style="display:flex;"><span>download 下载文件
+</span></span><span style="display:flex;"><span>downloads 列出正在进行的文件下载
+</span></span><span style="display:flex;"><span>drives 列出目标盘符
+</span></span><span style="display:flex;"><span>elevate 尝试提权
+</span></span><span style="display:flex;"><span>execute 在目标上执行程序(无输出)
+</span></span><span style="display:flex;"><span>execute-assembly 在目标上内存中执行本地.NET程序
+</span></span><span style="display:flex;"><span>exit 退出beacon
+</span></span><span style="display:flex;"><span>getprivs Enable system privileges oncurrent token
+</span></span><span style="display:flex;"><span>getsystem 尝试获取SYSTEM权限
+</span></span><span style="display:flex;"><span>getuid 获取用户ID
+</span></span><span style="display:flex;"><span>hashdump 转储密码哈希值
+</span></span><span style="display:flex;"><span>help 帮助
+</span></span><span style="display:flex;"><span>inject 在特定进程中生成会话
+</span></span><span style="display:flex;"><span>jobkill 杀死一个后台任务
+</span></span><span style="display:flex;"><span>jobs 列出后台任务
+</span></span><span style="display:flex;"><span>kerberos_ccache_use 从ccache文件中导入票据应用于此会话
+</span></span><span style="display:flex;"><span>kerberos_ticket_purge 清除当前会话的票据
+</span></span><span style="display:flex;"><span>kerberos_ticket_use 从ticket文件中导入票据应用于此会话
+</span></span><span style="display:flex;"><span>keylogger 键盘记录
+</span></span><span style="display:flex;"><span>kill 结束进程
+</span></span><span style="display:flex;"><span>link Connect to a Beacon peerover a named pipe
+</span></span><span style="display:flex;"><span>logonpasswords 使用mimikatz转储凭据和哈希值
+</span></span><span style="display:flex;"><span>ls 列出文件
+</span></span><span style="display:flex;"><span>make_token 创建令牌以传递凭据
+</span></span><span style="display:flex;"><span>mimikatz 运行mimikatz
+</span></span><span style="display:flex;"><span>mkdir 创建一个目录
+</span></span><span style="display:flex;"><span>mode dns 使用DNS A作为通信通道(仅限DNS beacon)
+</span></span><span style="display:flex;"><span>mode dns-txt 使用DNS TXT作为通信通道(仅限D beacon)
+</span></span><span style="display:flex;"><span>mode dns6 使用DNS AAAA作为通信通道(仅限DNS beacon)
+</span></span><span style="display:flex;"><span>mode http 使用HTTP作为通信通道
+</span></span><span style="display:flex;"><span>mv 移动文件
+</span></span><span style="display:flex;"><span>net net命令
+</span></span><span style="display:flex;"><span>note 备注
+</span></span><span style="display:flex;"><span>portscan 进行端口扫描
+</span></span><span style="display:flex;"><span>powerpick 通过Unmanaged PowerShell执行命令
+</span></span><span style="display:flex;"><span>powershell 通过powershell.exe执行命令
+</span></span><span style="display:flex;"><span>powershell-import 导入powershell脚本
+</span></span><span style="display:flex;"><span>ppid Set parent PID forspawned post-ex jobs
+</span></span><span style="display:flex;"><span>ps 显示进程列表
+</span></span><span style="display:flex;"><span>psexec Use a service to spawn asession on a host
+</span></span><span style="display:flex;"><span>psexec_psh Use PowerShell to spawn asession on a host
+</span></span><span style="display:flex;"><span>psinject 在特定进程中执行PowerShell命令
+</span></span><span style="display:flex;"><span>pth 使用Mimikatz进行传递哈希
+</span></span><span style="display:flex;"><span>pwd 当前目录位置
+</span></span><span style="display:flex;"><span>reg Query the registry
+</span></span><span style="display:flex;"><span>rev2self 恢复原始令牌
+</span></span><span style="display:flex;"><span>rm 删除文件或文件夹
+</span></span><span style="display:flex;"><span>rportfwd 端口转发
+</span></span><span style="display:flex;"><span>run 在目标上执行程序(返回输出)
+</span></span><span style="display:flex;"><span>runas 以另一个用户权限执行程序
+</span></span><span style="display:flex;"><span>runasadmin 在高权限下执行程序
+</span></span><span style="display:flex;"><span>runu Execute a program underanother PID
+</span></span><span style="display:flex;"><span>screenshot 屏幕截图
+</span></span><span style="display:flex;"><span>setenv 设置环境变量
+</span></span><span style="display:flex;"><span>shell cmd.exe  打开cmd终端
+</span></span><span style="display:flex;"><span>shell ipconfig 执行ipconfig命令
+</span></span><span style="display:flex;"><span>shinject 将shellcode注入进程
+</span></span><span style="display:flex;"><span>shspawn 生成进程并将shellcode注入其中
+</span></span><span style="display:flex;"><span>sleep 设置睡眠延迟时间
+</span></span><span style="display:flex;"><span>socks 启动SOCKS4代理
+</span></span><span style="display:flex;"><span>socks stop 停止SOCKS4
+</span></span><span style="display:flex;"><span>spawn Spawn a session
+</span></span><span style="display:flex;"><span>spawnas Spawn a session as anotheruser
+</span></span><span style="display:flex;"><span>spawnto Set executable tospawn processes into
+</span></span><span style="display:flex;"><span>spawnu Spawn a session underanother PID
+</span></span><span style="display:flex;"><span>ssh 使用ssh连接远程主机
+</span></span><span style="display:flex;"><span>ssh-key 使用密钥连接远程主机
+</span></span><span style="display:flex;"><span>steal_token 从进程中窃取令牌
+</span></span><span style="display:flex;"><span>timestomp 将一个文件时间戳应用到另一个文件
+</span></span><span style="display:flex;"><span>unlink Disconnect from parentBeacon
+</span></span><span style="display:flex;"><span>upload 上传文件
+</span></span><span style="display:flex;"><span>wdigest 使用mimikatz转储明文凭据
+</span></span><span style="display:flex;"><span>winrm 使用WinRM在主机上生成会话
+</span></span><span style="display:flex;"><span>wmi 使用WMI在主机上生成会话
+</span></span><span style="display:flex;"><span>argue 进程参数欺骗
+</span></span></code></pre></div><h1 id="插件加载">插件加载
+</h1><p>如图，依次点击</p>
+<p><img alt="图片14" class="gallery-image" data-flex-basis="371px" data-flex-grow="154" height="764" loading="lazy" sizes="(max-width: 767px) calc(100vw - 30px), (max-width: 1023px) 700px, (max-width: 1279px) 950px, 1232px" src="/p/cs%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/%E8%81%94%E6%83%B3%E6%88%AA%E5%9B%BE_20260502172220.png" srcset="/p/cs%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/%E8%81%94%E6%83%B3%E6%88%AA%E5%9B%BE_20260502172220_hu_f4d36035ac65e223.png 800w, /p/cs%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/%E8%81%94%E6%83%B3%E6%88%AA%E5%9B%BE_20260502172220.png 1184w" width="1184"></p>
+<p>点击“load”，找到插件的目录，选中文件并加载即可</p>
+<p><img alt="图片15" class="gallery-image" data-flex-basis="353px" data-flex-grow="147" height="816" loading="lazy" sizes="(max-width: 767px) calc(100vw - 30px), (max-width: 1023px) 700px, (max-width: 1279px) 950px, 1232px" src="/p/cs%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/%E8%81%94%E6%83%B3%E6%88%AA%E5%9B%BE_20260502172442.png" srcset="/p/cs%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/%E8%81%94%E6%83%B3%E6%88%AA%E5%9B%BE_20260502172442_hu_4d47ef6064929aed.png 800w, /p/cs%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/%E8%81%94%E6%83%B3%E6%88%AA%E5%9B%BE_20260502172442.png 1202w" width="1202"></p>
+<p>可以看到多了“谢公子的插件”这个选项，插件已经成功加载</p>
+<p><img alt="图片16" class="gallery-image" data-flex-basis="413px" data-flex-grow="172" height="692" loading="lazy" sizes="(max-width: 767px) calc(100vw - 30px), (max-width: 1023px) 700px, (max-width: 1279px) 950px, 1232px" src="/p/cs%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/%E8%81%94%E6%83%B3%E6%88%AA%E5%9B%BE_20260502172635.png" srcset="/p/cs%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/%E8%81%94%E6%83%B3%E6%88%AA%E5%9B%BE_20260502172635_hu_b6e9c78d46372f87.png 800w, /p/cs%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/%E8%81%94%E6%83%B3%E6%88%AA%E5%9B%BE_20260502172635.png 1192w" width="1192"></p>
+<h1 id="联动msf">联动MSF
+</h1><p>CS-&gt;MSF (CS 把权限转交给 MSF)</p>
+<p><strong>CS：</strong><br>
+新建个监听器，监听的协议要与 MSF 一致，如CS监听 HTTP 协议，那么 MSF 也要监听 HTTP 协议<br>
+CS 监听的协议是 windows/foreign/reverse_http 字样</p>
+<p><img alt="图片17" class="gallery-image" data-flex-basis="174px" data-flex-grow="72" height="653" loading="lazy" sizes="(max-width: 767px) calc(100vw - 30px), (max-width: 1023px) 700px, (max-width: 1279px) 950px, 1232px" src="/p/cs%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/%E8%81%94%E6%83%B3%E6%88%AA%E5%9B%BE_20260502190056.png" width="474"></p>
+<p>然后就执行<code>spawn msf</code> 这个命令就可以联动了</p>
+<p><img alt="图片18" class="gallery-image" data-flex-basis="369px" data-flex-grow="153" height="502" loading="lazy" sizes="(max-width: 767px) calc(100vw - 30px), (max-width: 1023px) 700px, (max-width: 1279px) 950px, 1232px" src="/p/cs%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/%E8%81%94%E6%83%B3%E6%88%AA%E5%9B%BE_20260502190419.png" width="772"></p>
+
+</section>
+
+
+    <footer class="article-meta article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/%E5%86%85%E7%BD%91/">内网</a>
+        
+            <a href="/tags/%E5%B7%A5%E5%85%B7/">工具</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright inline-meta">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>DUYER</span>
+    </section>
+    <section class="article-lastmod inline-meta">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+        <span>
+            最后更新于 2026年5月7日 星期一 19:06
+        </span>
+    </section></footer>
+
+
+    
+        <link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI&#43;WdtXRGWt2kTvGFasHpSy3SV"crossorigin="anonymous"
+            ><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG&#43;vnGctmUb0ZY0l8"crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"integrity="sha384-&#43;VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4&#43;/RRE05"crossorigin="anonymous"
+                defer
+                >
+            </script><script>
+    window.addEventListener("DOMContentLoaded", () => {
+        const elementsToRender = [".main-article", ".widget--toc"];
+
+        elementsToRender.forEach(selector => {
+            const element = document.querySelector(selector);
+            if (element) {
+                renderMathInElement(element, {
+                    delimiters: [
+                        { left: "$$", right: "$$", display: true },
+                        { left: "$", right: "$", display: false },
+                        { left: "\\(", right: "\\)", display: false },
+                        { left: "\\[", right: "\\]", display: true }
+                    ],
+                    ignoredClasses: ["gist"]
+                });
+            }
+        });
+    });
+</script>
+    
+</article>
+
+    
+
+    
+
+     
+    
+        
+
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+        2026 DUYER
+    </section>
+    
+    <section class="powerby">
+        使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 构建 <br />
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="4.0.2">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+    </section>
+</footer>
+
+
+    
+
+
+
+<script type="module">
+    import gallery from '\/ts\/gallery.js';
+
+    const articleContent = document.querySelector('.article-content');
+    const shouldLoad = articleContent && (articleContent.querySelectorAll('figure').length > 0 || articleContent.querySelectorAll('img.gallery-image').length > 0);
+    
+    if (shouldLoad) {
+        gallery(articleContent);
+
+        const PhotoSwipeLightbox = (await import("https:\/\/cdn.jsdelivr.net\/npm\/photoswipe@5.4.4\/dist\/photoswipe-lightbox.esm.min.js")).default;
+        const styleHref = "https:\/\/cdn.jsdelivr.net\/npm\/photoswipe@5.4.4\/dist\/photoswipe.css";
+
+        const styleTag = document.createElement('link');
+        styleTag.rel = 'stylesheet';
+        styleTag.href = styleHref;
+        document.head.appendChild(styleTag);
+
+        const lightbox = new PhotoSwipeLightbox({
+            gallerySelector: '.article-content',
+            childSelector: 'figure a.image-link',
+            pswpModule: () => import("https:\/\/cdn.jsdelivr.net\/npm\/photoswipe@5.4.4\/dist\/photoswipe.esm.min.js")
+        });
+        lightbox.init();
+    }
+</script>
+
+    
+
+            </main>
+        </div>
+        
+<script type="text/javascript" src="/ts/main.f856840516f7c2ad1769a8f5937e3d08d6cb386e2cd2dd025ae696e0ff207958.js" defer></script>
+
+
+    </body>
+</html>
