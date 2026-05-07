@@ -2,132 +2,135 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.com/</loc>
+    <loc>https://duyere.github.io/</loc>
+    <lastmod>2026-05-07T17:07:52+08:00</lastmod>
+  </url><url>
+    <loc>https://duyere.github.io/p/newnewnew/</loc>
+    <lastmod>2026-05-07T17:07:52+08:00</lastmod>
+  </url><url>
+    <loc>https://duyere.github.io/post/</loc>
+    <lastmod>2026-05-07T17:07:52+08:00</lastmod>
+  </url><url>
+    <loc>https://duyere.github.io/p/myfastblog/</loc>
     <lastmod>2026-05-07T12:06:38+08:00</lastmod>
   </url><url>
-    <loc>https://example.com/p/myfastblog/</loc>
-    <lastmod>2026-05-07T12:06:38+08:00</lastmod>
-  </url><url>
-    <loc>https://example.com/post/</loc>
-    <lastmod>2026-05-07T12:06:38+08:00</lastmod>
-  </url><url>
-    <loc>https://example.com/categories/</loc>
+    <loc>https://duyere.github.io/categories/</loc>
     <lastmod>2026-01-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/gallery/</loc>
+    <loc>https://duyere.github.io/tags/gallery/</loc>
     <lastmod>2026-01-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/page/</loc>
+    <loc>https://duyere.github.io/page/</loc>
     <lastmod>2026-01-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/photoswipe/</loc>
+    <loc>https://duyere.github.io/tags/photoswipe/</loc>
     <lastmod>2026-01-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/</loc>
+    <loc>https://duyere.github.io/tags/</loc>
     <lastmod>2026-01-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/p/%E7%9F%AD%E4%BB%A3%E7%A0%81/</loc>
+    <loc>https://duyere.github.io/p/%E7%9F%AD%E4%BB%A3%E7%A0%81/</loc>
     <lastmod>2026-01-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/%E5%85%B3%E4%BA%8E/</loc>
+    <loc>https://duyere.github.io/%E5%85%B3%E4%BA%8E/</loc>
     <lastmod>2026-01-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/categories/documentation/</loc>
+    <loc>https://duyere.github.io/categories/documentation/</loc>
     <lastmod>2026-01-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/p/image-gallery/</loc>
+    <loc>https://duyere.github.io/p/image-gallery/</loc>
     <lastmod>2026-01-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/%E9%9A%90%E7%A7%81/</loc>
+    <loc>https://duyere.github.io/tags/%E9%9A%90%E7%A7%81/</loc>
     <lastmod>2026-01-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/css/</loc>
+    <loc>https://duyere.github.io/tags/css/</loc>
     <lastmod>2026-01-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/html/</loc>
+    <loc>https://duyere.github.io/tags/html/</loc>
     <lastmod>2026-01-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/markdown/</loc>
+    <loc>https://duyere.github.io/tags/markdown/</loc>
     <lastmod>2026-01-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/p/markdown-%E8%AF%AD%E6%B3%95%E6%8C%87%E5%8D%97/</loc>
+    <loc>https://duyere.github.io/p/markdown-%E8%AF%AD%E6%B3%95%E6%8C%87%E5%8D%97/</loc>
     <lastmod>2026-01-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/themes/</loc>
+    <loc>https://duyere.github.io/tags/themes/</loc>
     <lastmod>2026-01-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/p/math-typesetting/</loc>
+    <loc>https://duyere.github.io/p/math-typesetting/</loc>
     <lastmod>2026-01-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/diagrams/</loc>
+    <loc>https://duyere.github.io/tags/diagrams/</loc>
     <lastmod>2025-12-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/mermaid/</loc>
+    <loc>https://duyere.github.io/tags/mermaid/</loc>
     <lastmod>2025-12-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/p/mermaid-diagrams/</loc>
+    <loc>https://duyere.github.io/p/mermaid-diagrams/</loc>
     <lastmod>2025-12-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/categories/syntax/</loc>
+    <loc>https://duyere.github.io/categories/syntax/</loc>
     <lastmod>2025-12-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/categories/themes/</loc>
+    <loc>https://duyere.github.io/categories/themes/</loc>
     <lastmod>2025-12-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/archives/</loc>
+    <loc>https://duyere.github.io/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/pagination/</loc>
+    <loc>https://duyere.github.io/tags/pagination/</loc>
     <lastmod>2000-01-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/p/pagination-test-12/</loc>
+    <loc>https://duyere.github.io/p/pagination-test-12/</loc>
     <lastmod>2000-01-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/test/</loc>
+    <loc>https://duyere.github.io/tags/test/</loc>
     <lastmod>2000-01-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/categories/testing/</loc>
+    <loc>https://duyere.github.io/categories/testing/</loc>
     <lastmod>2000-01-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/p/pagination-test-11/</loc>
+    <loc>https://duyere.github.io/p/pagination-test-11/</loc>
     <lastmod>2000-01-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/p/pagination-test-10/</loc>
+    <loc>https://duyere.github.io/p/pagination-test-10/</loc>
     <lastmod>2000-01-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/p/pagination-test-09/</loc>
+    <loc>https://duyere.github.io/p/pagination-test-09/</loc>
     <lastmod>2000-01-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/p/pagination-test-08/</loc>
+    <loc>https://duyere.github.io/p/pagination-test-08/</loc>
     <lastmod>2000-01-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/p/pagination-test-07/</loc>
+    <loc>https://duyere.github.io/p/pagination-test-07/</loc>
     <lastmod>2000-01-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/p/pagination-test-06/</loc>
+    <loc>https://duyere.github.io/p/pagination-test-06/</loc>
     <lastmod>2000-01-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/p/pagination-test-05/</loc>
+    <loc>https://duyere.github.io/p/pagination-test-05/</loc>
     <lastmod>2000-01-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/p/pagination-test-04/</loc>
+    <loc>https://duyere.github.io/p/pagination-test-04/</loc>
     <lastmod>2000-01-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/p/pagination-test-03/</loc>
+    <loc>https://duyere.github.io/p/pagination-test-03/</loc>
     <lastmod>2000-01-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/p/pagination-test-02/</loc>
+    <loc>https://duyere.github.io/p/pagination-test-02/</loc>
     <lastmod>2000-01-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/p/pagination-test-01/</loc>
+    <loc>https://duyere.github.io/p/pagination-test-01/</loc>
     <lastmod>2000-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/categories/documentation/documentation/</loc>
+    <loc>https://duyere.github.io/categories/documentation/documentation/</loc>
   </url><url>
-    <loc>https://example.com/%E9%93%BE%E6%8E%A5/</loc>
+    <loc>https://duyere.github.io/%E9%93%BE%E6%8E%A5/</loc>
   </url><url>
-    <loc>https://example.com/search/</loc>
+    <loc>https://duyere.github.io/search/</loc>
   </url><url>
-    <loc>https://example.com/categories/documentation/documentation/</loc>
+    <loc>https://duyere.github.io/categories/documentation/documentation/</loc>
   </url>
 </urlset>
